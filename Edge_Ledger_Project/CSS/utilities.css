@@ -1,0 +1,135 @@
+#green{
+    color: #28a745;
+}
+
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    background: transparent;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.hero #content a{
+    background: #28a745;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+
+.btn-secondary{
+    background: #0284d0;
+    color: #fff;
+}
+.btn-dark{
+    background: #333;
+    color: #fff;
+}
+.btn-secondary{
+    background: #f4f4f4;
+    color: #333;
+}
+
+.flex-rc .row{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.flex-rc .column{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+.flex-round .column{
+    flex: 33.3%;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    justify-content: space-between;
+}
+
+.flex-round .row{
+    margin-bottom: 100px;
+}
+
+.flex-round .column h4{
+    padding-top: 20px;
+}
+
+.flex-round .column img{
+    border-radius: 50%;
+}
+
+.flex-rc .column .column-2{
+    background: #28a745;
+}
+
+.flex-rc .column .column-1,
+.flex-rc .column .column-2{
+    height: 100%;
+}
+
+.flex-rc .column .column-1 #img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.flex-rc .column img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.flex-rc .column .column-2 h4,
+.flex-rc .column .column-2 h1,
+.flex-rc .column .column-2 p{
+    padding: 10px 30px;
+    color: white;
+}
+
+.flex-rc .column .column-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+}
+.flex-rc .column .column-2 h4{
+    padding-top: 30px;
+}
+
+.flex-rc .column .column-2 h1{
+    font-size: 50px;
+}
+
+.flex-rc .column .column-2 a{
+    color: white;
+    border: 2px white solid;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 4px;
+}
+
+.business-img .column{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0px 4px;
+}
+
+.business-img .column img{
+    width: 100%;
+}
+
+.business-img .column img:hover{
+    opacity: .8;
+}
